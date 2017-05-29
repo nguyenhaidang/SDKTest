@@ -12,6 +12,7 @@
 		DE0D7A291E8967CC00DDD200 /* SDKTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0D7A1B1E8967CC00DDD200 /* SDKTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE0D7A341E89687D00DDD200 /* SDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0D7A321E89687D00DDD200 /* SDKConfig.h */; };
 		DE0D7A351E89687D00DDD200 /* SDKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D7A331E89687D00DDD200 /* SDKConfig.m */; };
+		DEE8B8891EDC34240090CC52 /* SDKTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE8B8871EDC34240090CC52 /* SDKTest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E027D22C27D16DA84BBF7604 /* libPods-SDKTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF95FF33D69C5329B052B87B /* libPods-SDKTest.a */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,9 @@
 		DE0D7A281E8967CC00DDD200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0D7A321E89687D00DDD200 /* SDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKConfig.h; sourceTree = "<group>"; };
 		DE0D7A331E89687D00DDD200 /* SDKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKConfig.m; sourceTree = "<group>"; };
+		DEE8B8851EDC34240090CC52 /* SDKTest2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKTest2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEE8B8871EDC34240090CC52 /* SDKTest2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKTest2.h; sourceTree = "<group>"; };
+		DEE8B8881EDC34240090CC52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF95FF33D69C5329B052B87B /* libPods-SDKTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,6 +57,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0D7A221E8967CC00DDD200 /* SDKTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8B8811EDC34240090CC52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 			children = (
 				DE0D7A1A1E8967CC00DDD200 /* SDKTest */,
 				DE0D7A251E8967CC00DDD200 /* SDKTestTests */,
+				DEE8B8861EDC34240090CC52 /* SDKTest2 */,
 				DE0D7A191E8967CC00DDD200 /* Products */,
 				5F2D7AA1A283E43953CB4DF8 /* Pods */,
 				9B8082DA4BF39D408DE11A72 /* Frameworks */,
@@ -92,6 +104,7 @@
 			children = (
 				DE0D7A181E8967CC00DDD200 /* SDKTest.framework */,
 				DE0D7A211E8967CC00DDD200 /* SDKTestTests.xctest */,
+				DEE8B8851EDC34240090CC52 /* SDKTest2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +129,15 @@
 			path = SDKTestTests;
 			sourceTree = "<group>";
 		};
+		DEE8B8861EDC34240090CC52 /* SDKTest2 */ = {
+			isa = PBXGroup;
+			children = (
+				DEE8B8871EDC34240090CC52 /* SDKTest2.h */,
+				DEE8B8881EDC34240090CC52 /* Info.plist */,
+			);
+			path = SDKTest2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -125,6 +147,14 @@
 			files = (
 				DE0D7A291E8967CC00DDD200 /* SDKTest.h in Headers */,
 				DE0D7A341E89687D00DDD200 /* SDKConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8B8821EDC34240090CC52 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE8B8891EDC34240090CC52 /* SDKTest2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +199,24 @@
 			productReference = DE0D7A211E8967CC00DDD200 /* SDKTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DEE8B8841EDC34240090CC52 /* SDKTest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEE8B88C1EDC34240090CC52 /* Build configuration list for PBXNativeTarget "SDKTest2" */;
+			buildPhases = (
+				DEE8B8801EDC34240090CC52 /* Sources */,
+				DEE8B8811EDC34240090CC52 /* Frameworks */,
+				DEE8B8821EDC34240090CC52 /* Headers */,
+				DEE8B8831EDC34240090CC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKTest2;
+			productName = SDKTest2;
+			productReference = DEE8B8851EDC34240090CC52 /* SDKTest2.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -186,6 +234,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					DEE8B8841EDC34240090CC52 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = DE0D7A121E8967CC00DDD200 /* Build configuration list for PBXProject "SDKTest" */;
@@ -200,6 +252,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				DEE8B8841EDC34240090CC52 /* SDKTest2 */,
 				DE0D7A171E8967CC00DDD200 /* SDKTest */,
 				DE0D7A201E8967CC00DDD200 /* SDKTestTests */,
 			);
@@ -215,6 +268,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DE0D7A1F1E8967CC00DDD200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8B8831EDC34240090CC52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,6 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE0D7A271E8967CC00DDD200 /* SDKTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE8B8801EDC34240090CC52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +503,44 @@
 			};
 			name = Release;
 		};
+		DEE8B88A1EDC34240090CC52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SDKTest2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DA.SDKTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEE8B88B1EDC34240090CC52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SDKTest2/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DA.SDKTest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +570,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		DEE8B88C1EDC34240090CC52 /* Build configuration list for PBXNativeTarget "SDKTest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEE8B88A1EDC34240090CC52 /* Debug */,
+				DEE8B88B1EDC34240090CC52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

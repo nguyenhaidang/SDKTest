@@ -6,8 +6,15 @@
 	<dict>
 		<key>SDKTest.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>SDKTest2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +25,11 @@
 			<true/>
 		</dict>
 		<key>DE0D7A201E8967CC00DDD200</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DEE8B8841EDC34240090CC52</key>
 		<dict>
 			<key>primary</key>
 			<true/>
