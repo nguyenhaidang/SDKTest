@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 1
   s.platform = :ios
   s.ios.deployment_target = '8.0'
-  s.name = "SDKTest"
+  s.name = "SDKTest1"
   s.summary = "Ban Test SDK"
   s.requires_arc = true
  
