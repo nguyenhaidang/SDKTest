@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
 
  
   # 8 Khai báo file code 
-  s.source_files = "SDKTest/**/*.{h,m}"
- #Với swift thì:  s.source_files = "SDKTest2/**/*.{swift}"
+  s.source_files = "SDKTest2/**/*.{h,m}"
+ #Với swift thì:  s.source_files = "SDKTest/**/*.{swift}"
   # 9
   s.resources = "SDKTest2/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
