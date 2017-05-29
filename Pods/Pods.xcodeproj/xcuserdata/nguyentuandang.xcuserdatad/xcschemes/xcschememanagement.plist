@@ -4,34 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking 2.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
-		</dict>
 		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
-		<key>Pods-SDKTest.xcscheme</key>
+		<key>Pods-SDKTest2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1C6E1F8CB096D4C700E601D83350F36C</key>
+		<key>32DEF64546320E2C35950D1553E9DF99</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E033EDB5EC0819481B0546434FA577B</key>
+		<key>7A4EE95259B059013096A101431CCFE4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
