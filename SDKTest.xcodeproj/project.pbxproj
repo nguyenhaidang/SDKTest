@@ -7,29 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE0D7A221E8967CC00DDD200 /* SDKTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0D7A181E8967CC00DDD200 /* SDKTest.framework */; };
 		DE0D7A271E8967CC00DDD200 /* SDKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D7A261E8967CC00DDD200 /* SDKTestTests.m */; };
-		DE0D7A291E8967CC00DDD200 /* SDKTest.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0D7A1B1E8967CC00DDD200 /* SDKTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE0D7A341E89687D00DDD200 /* SDKConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = DE0D7A321E89687D00DDD200 /* SDKConfig.h */; };
-		DE0D7A351E89687D00DDD200 /* SDKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0D7A331E89687D00DDD200 /* SDKConfig.m */; };
 		DEE8B8891EDC34240090CC52 /* SDKTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = DEE8B8871EDC34240090CC52 /* SDKTest2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E027D22C27D16DA84BBF7604 /* libPods-SDKTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF95FF33D69C5329B052B87B /* libPods-SDKTest.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DE0D7A231E8967CC00DDD200 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE0D7A0F1E8967CC00DDD200 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE0D7A171E8967CC00DDD200;
-			remoteInfo = SDKTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		11FAEAEC2FFDDFB32567B030 /* Pods-SDKTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDKTest/Pods-SDKTest.debug.xcconfig"; sourceTree = "<group>"; };
 		4E092769F6B4DB7F44511BEE /* Pods-SDKTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDKTest/Pods-SDKTest.release.xcconfig"; sourceTree = "<group>"; };
-		DE0D7A181E8967CC00DDD200 /* SDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0D7A1B1E8967CC00DDD200 /* SDKTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKTest.h; sourceTree = "<group>"; };
 		DE0D7A1C1E8967CC00DDD200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE0D7A211E8967CC00DDD200 /* SDKTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,19 +28,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE0D7A141E8967CC00DDD200 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E027D22C27D16DA84BBF7604 /* libPods-SDKTest.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DE0D7A1E1E8967CC00DDD200 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE0D7A221E8967CC00DDD200 /* SDKTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +77,6 @@
 		DE0D7A191E8967CC00DDD200 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE0D7A181E8967CC00DDD200 /* SDKTest.framework */,
 				DE0D7A211E8967CC00DDD200 /* SDKTestTests.xctest */,
 				DEE8B8851EDC34240090CC52 /* SDKTest2.framework */,
 			);
@@ -141,15 +115,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DE0D7A151E8967CC00DDD200 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE0D7A291E8967CC00DDD200 /* SDKTest.h in Headers */,
-				DE0D7A341E89687D00DDD200 /* SDKConfig.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DEE8B8821EDC34240090CC52 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,26 +126,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DE0D7A171E8967CC00DDD200 /* SDKTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE0D7A2C1E8967CC00DDD200 /* Build configuration list for PBXNativeTarget "SDKTest" */;
-			buildPhases = (
-				65975436DD77FE88F34CD2E6 /* [CP] Check Pods Manifest.lock */,
-				DE0D7A131E8967CC00DDD200 /* Sources */,
-				DE0D7A141E8967CC00DDD200 /* Frameworks */,
-				DE0D7A151E8967CC00DDD200 /* Headers */,
-				DE0D7A161E8967CC00DDD200 /* Resources */,
-				F4934337808543D8A9D1C726 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SDKTest;
-			productName = SDKTest;
-			productReference = DE0D7A181E8967CC00DDD200 /* SDKTest.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		DE0D7A201E8967CC00DDD200 /* SDKTestTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE0D7A2F1E8967CC00DDD200 /* Build configuration list for PBXNativeTarget "SDKTestTests" */;
@@ -192,7 +137,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DE0D7A241E8967CC00DDD200 /* PBXTargetDependency */,
 			);
 			name = SDKTestTests;
 			productName = SDKTestTests;
@@ -226,10 +170,6 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Zi;
 				TargetAttributes = {
-					DE0D7A171E8967CC00DDD200 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-					};
 					DE0D7A201E8967CC00DDD200 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -253,20 +193,12 @@
 			projectRoot = "";
 			targets = (
 				DEE8B8841EDC34240090CC52 /* SDKTest2 */,
-				DE0D7A171E8967CC00DDD200 /* SDKTest */,
 				DE0D7A201E8967CC00DDD200 /* SDKTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DE0D7A161E8967CC00DDD200 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DE0D7A1F1E8967CC00DDD200 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,48 +215,7 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		65975436DD77FE88F34CD2E6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F4934337808543D8A9D1C726 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDKTest/Pods-SDKTest-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		DE0D7A131E8967CC00DDD200 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DE0D7A351E89687D00DDD200 /* SDKConfig.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DE0D7A1D1E8967CC00DDD200 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,14 +232,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DE0D7A241E8967CC00DDD200 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE0D7A171E8967CC00DDD200 /* SDKTest */;
-			targetProxy = DE0D7A231E8967CC00DDD200 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DE0D7A2A1E8967CC00DDD200 /* Debug */ = {
@@ -447,42 +330,6 @@
 			};
 			name = Release;
 		};
-		DE0D7A2D1E8967CC00DDD200 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11FAEAEC2FFDDFB32567B030 /* Pods-SDKTest.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SDKTest/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dang.SDKTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DE0D7A2E1E8967CC00DDD200 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E092769F6B4DB7F44511BEE /* Pods-SDKTest.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SDKTest/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dang.SDKTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		DE0D7A301E8967CC00DDD200 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -553,15 +400,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE0D7A2C1E8967CC00DDD200 /* Build configuration list for PBXNativeTarget "SDKTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE0D7A2D1E8967CC00DDD200 /* Debug */,
-				DE0D7A2E1E8967CC00DDD200 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		DE0D7A2F1E8967CC00DDD200 /* Build configuration list for PBXNativeTarget "SDKTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -578,6 +416,7 @@
 				DEE8B88B1EDC34240090CC52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
